@@ -4,7 +4,7 @@ sudo apt update && sudo apt uprgade -y<br>
 sudo apt install -y mosh tmux htop git curl wget unzip zip gcc build-essential make
 
 <h4>smarthome</h4>
-homebridge
+homebridge<br>
 mosquitto
 
 <h4>python</h4>
