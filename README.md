@@ -7,6 +7,7 @@ sudo apt install -y mosh tmux htop git curl wget unzip zip gcc build-essential m
 ```
 sudo nano /etc/ssh/sshd_config<br>
 ```
+<br>
 Port<br>
 PermitRootLogin no<br>
 PermitRootLogin no<br>
