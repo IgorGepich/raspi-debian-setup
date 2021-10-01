@@ -26,7 +26,7 @@ sudo cp /etc/fail2ban/jail.conf /etc/fail2ban/jail.local<br>
 sudo nano /etc/fail2ban/jail.local<br>
 sudo service fail2ban restart<br>
 ```
-*fail2ban log file<br>*
+fail2ban log file<br>
 /var/log/fail2ban.log<br>
 
 
