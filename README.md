@@ -1,17 +1,17 @@
-<h2>Debian Server Set Up</h2>
-<h4>Global</h4>
+<h2><b>Debian Server Set Up<</b>/h2>
+<h3>Global</h3>
 sudo apt update && sudo apt uprgade -y<br>
 sudo apt install -y mosh tmux htop git curl wget unzip zip gcc build-essential make
 
-<h4>smarthome</h4>
+<h3>smarthome</h3>
 homebridge<br>
 mosquitto
 
-<h4>python</h4>
+<h3>python</h3>
 
-<h4>ssh</h4>
+<h3>ssh</h3>
 
-<h4>nodejs</h4>
+<h3>nodejs</h3>
 
 
 
