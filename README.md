@@ -1,10 +1,13 @@
-<h2>Debian Server Set Up</h2>
-<h3>Global</h3>
+##Debian Server Set Up
+###Global
+```
 sudo apt update && sudo apt uprgade -y<br>
 sudo apt install -y mosh tmux htop git curl wget unzip zip gcc build-essential make
-
-<h3>Configure SSH</h3>
+```
+###Configure SSH
+```
 sudo nano /etc/ssh/sshd_config<br>
+```
 <br>
 Port<br>
 PermitRootLogin no<br>
@@ -15,14 +18,15 @@ PasswordAuthentication no<br>
 PermitEmptyPasswords no<br>
 ChallengeResponseAuthentication no<br>
 
-#fail2ban<br>
+<h3>fail2ban</h3>
+```
 sudo apt install -y fail2ban<br>
 
 sudo cp /etc/fail2ban/jail.conf /etc/fail2ban/jail.local<br>
 sudo nano /etc/fail2ban/jail.local<br>
 sudo service fail2ban restart<br>
-
-fail2ban log file<br>
+```
+*fail2ban log file<br>*
 /var/log/fail2ban.log<br>
 
 
