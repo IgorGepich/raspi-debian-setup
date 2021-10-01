@@ -21,11 +21,11 @@ ChallengeResponseAuthentication no<br>
 <h3>fail2ban</h3>
 ```
 sudo apt install -y fail2ban<br>
-
 sudo cp /etc/fail2ban/jail.conf /etc/fail2ban/jail.local<br>
 sudo nano /etc/fail2ban/jail.local<br>
 sudo service fail2ban restart<br>
 ```
+
 fail2ban log file<br>
 /var/log/fail2ban.log<br>
 
