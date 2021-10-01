@@ -1,10 +1,12 @@
 <h2>Debian Server Set Up</h2>
 <h3>Global</h3>
-<sudo apt update && sudo apt uprgade -y<br>>
+sudo apt update && sudo apt uprgade -y<br>
 sudo apt install -y mosh tmux htop git curl wget unzip zip gcc build-essential make
 
 <h3>Configure SSH</h3>
+```
 sudo nano /etc/ssh/sshd_config<br>
+```
 Port<br>
 PermitRootLogin no<br>
 PermitRootLogin no<br>
