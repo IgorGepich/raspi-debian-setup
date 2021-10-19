@@ -10,7 +10,6 @@ sudo nano /etc/ssh/sshd_config
 
 Port
 PermitRootLogin no
-PermitRootLogin no
 PasswordAuthentication no
 PubkeyAuthentication yes
 PasswordAuthentication no
@@ -34,11 +33,11 @@ fail2ban log file
 homebridge
 mosquitto
 ```
-<h3>python</h3>
+###python
 
-<h3>ssh</h3>
+###ssh
 
-<h3>nodejs</h3>
+###nodejs
 
 
 
