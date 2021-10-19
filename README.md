@@ -17,7 +17,7 @@ PasswordAuthentication no
 PermitEmptyPasswords no
 ChallengeResponseAuthentication no
 ```
-<h3>fail2ban</h3>
+###fail2ban
 ```
 sudo apt install -y fail2ban
 sudo cp /etc/fail2ban/jail.conf /etc/fail2ban/jail.local
@@ -29,7 +29,7 @@ fail2ban log file
 /var/log/fail2ban.log
 ```
 
-<h3>smarthome</h3>
+###smarthome
 ```
 homebridge
 mosquitto
