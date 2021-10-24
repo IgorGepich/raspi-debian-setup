@@ -33,6 +33,15 @@ fail2ban log file
 homebridge
 mosquitto
 ```
+
+### zshrc
+FIX perl: warning: Setting locale failed. 
+Create ~/.zshrc file with content 
+```
+# Setting for the new UTF-8 terminal support in Big Sur
+LC_CTYPE=en_US.UTF-8
+LC_ALL=en_US.UTF-8
+```
 ###python
 
 ###ssh
