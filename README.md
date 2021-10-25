@@ -28,7 +28,7 @@ ssh-keygen
 ssh-add ~/.ssh/key_name.private
 ```
 Add public key to /.ssh/authorized_keys file on the server<br>
-Restart shh
+Restart ssh
 ```
 //Debian
 $ sudo service ssh restart
