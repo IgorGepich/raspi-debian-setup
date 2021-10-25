@@ -30,9 +30,10 @@ ssh-add ~/.ssh/key_name.private
 Add public key to /.ssh/authorized_keys file on the server<br>
 Restart ssh
 ```
-//Debian
+#Debian
 $ sudo service ssh restart
-//OSX
+
+#OSX
 $ sudo launchctl stop com.openssh.sshd
 $ sudo launchctl start com.openssh.sshd
 ```
