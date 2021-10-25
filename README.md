@@ -21,10 +21,10 @@ ChallengeResponseAuthentication no
 ssh-keygen
 ssh-add ~/.ssh/key_name.private
 ```
-add public key to /.ssh/authorized_keys file on the server
-restart shh
+Add public key to /.ssh/authorized_keys file on the server
+Restart shh
 ```
-//Derbian
+//Debian
 $ sudo service ssh restart
 //OSX
 $ sudo launchctl stop com.openssh.sshd
