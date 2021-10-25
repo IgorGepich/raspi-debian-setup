@@ -1,12 +1,12 @@
-##Debian Server Set Up
-###Global
+<h2>Debian Server Set Up
+<h3>Global
 <hr>
 
 ```
 sudo apt update && sudo apt uprgade -y
 sudo apt install -y mosh tmux htop git curl wget unzip zip gcc build-essential make
 ```
-###Configure SSH
+<h3>Configure SSH
 <hr>
 
 ```
@@ -20,7 +20,7 @@ PasswordAuthentication no
 PermitEmptyPasswords no
 ChallengeResponseAuthentication no
 ```
-###Generate SSH key OSX
+<h3>Generate SSH key OSX
 <hr>
 
 ```
@@ -65,7 +65,7 @@ mosquitto
 FIX perl: warning: Setting locale failed. <br>
 Create ~/.zshrc file with content 
 
-####Setting for the new UTF-8 terminal support in Big Sur
+<h4>Setting for the new UTF-8 terminal support in Big Sur
 ```
 LC_CTYPE=en_US.UTF-8
 LC_ALL=en_US.UTF-8
