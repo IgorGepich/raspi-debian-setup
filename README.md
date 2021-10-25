@@ -72,5 +72,20 @@ sudo npm -v
 sudo npm install -g npm
 ```
 
+###PM2
+```
+npm install pm2 -g
+pm2 start app.js
+pm2 save
+```
+Commands
+```
+pm2 list
+pm2 stop
+pm2 restart
+pm2 delete
+pm2 monit
+```
+
 
 
