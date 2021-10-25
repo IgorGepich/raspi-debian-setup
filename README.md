@@ -46,7 +46,17 @@ LC_ALL=en_US.UTF-8
 
 ###ssh
 
-###nodejs
+###nodejs & npm
+```
+//Node JS
+sudo npm cache clean -f
+sudo npm install -g n
+sudo n stable
+
+//NPM
+sudo npm -v
+sudo npm install -g npm
+```
 
 
 
