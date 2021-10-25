@@ -97,7 +97,9 @@ pm2 startup
 pm2 start app.js
 pm2 save
 ```
+
 <h4>Commands</h4>
+
 ```
 pm2 list
 pm2 stop
@@ -108,7 +110,9 @@ pm2 monit
 pm2 set pm2:sysmonit true
 pm2 update
 ```
+
 <h4>PM2 update</h4>
+
 ```
 # Install latest PM2 version
 $ npm install pm2@latest -g
