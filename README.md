@@ -1,10 +1,14 @@
 ##Debian Server Set Up
 ###Global
+<hr>
+
 ```
 sudo apt update && sudo apt uprgade -y
 sudo apt install -y mosh tmux htop git curl wget unzip zip gcc build-essential make
 ```
 ###Configure SSH
+<hr>
+
 ```
 sudo nano /etc/ssh/sshd_config
 
@@ -17,6 +21,8 @@ PermitEmptyPasswords no
 ChallengeResponseAuthentication no
 ```
 ###Generate SSH key OSX
+<hr>
+
 ```
 ssh-keygen
 ssh-add ~/.ssh/key_name.private
@@ -31,6 +37,8 @@ $ sudo launchctl stop com.openssh.sshd
 $ sudo launchctl start com.openssh.sshd
 ```
 ###fail2ban
+<hr>
+
 ```
 sudo apt install -y fail2ban
 sudo cp /etc/fail2ban/jail.conf /etc/fail2ban/jail.local
@@ -43,24 +51,32 @@ fail2ban log file
 ```
 
 ###smarthome
+<hr>
+
 ```
 homebridge
 mosquitto
 ```
 
 ### zshrc
+<hr>
+
+```
 FIX perl: warning: Setting locale failed. 
 Create ~/.zshrc file with content 
 ```
-# Setting for the new UTF-8 terminal support in Big Sur
+####Setting for the new UTF-8 terminal support in Big Sur
+```
 LC_CTYPE=en_US.UTF-8
 LC_ALL=en_US.UTF-8
 ```
-###python
 
-###ssh
+###python
+<hr>
 
 ###nodejs & npm
+<hr>
+
 ```
 //Node JS
 sudo npm cache clean -f
@@ -71,20 +87,24 @@ sudo n stable
 sudo npm -v
 sudo npm install -g npm
 ```
-
 ###PM2
+<hr>
+
 ```
 npm install pm2 -g
 pm2 start app.js
 pm2 save
 ```
-Commands
+####Commands
 ```
 pm2 list
 pm2 stop
 pm2 restart
 pm2 delete
 pm2 monit
+
+pm2 set pm2:sysmonit true
+pm2 update
 ```
 
 
