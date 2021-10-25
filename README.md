@@ -1,12 +1,12 @@
-<h2>Debian Server Set Up
-<h3>Global
+<h2>Debian Server Set Up</h2>
+<h3>Global</h3>
 <hr>
 
 ```
 sudo apt update && sudo apt uprgade -y
 sudo apt install -y mosh tmux htop git curl wget unzip zip gcc build-essential make
 ```
-<h3>Configure SSH
+<h3>Configure SSH</h3>
 <hr>
 
 ```
@@ -20,7 +20,7 @@ PasswordAuthentication no
 PermitEmptyPasswords no
 ChallengeResponseAuthentication no
 ```
-<h3>Generate SSH key OSX
+<h3>Generate SSH key OSX</h3>
 <hr>
 
 ```
@@ -36,7 +36,7 @@ $ sudo service ssh restart
 $ sudo launchctl stop com.openssh.sshd
 $ sudo launchctl start com.openssh.sshd
 ```
-###fail2ban
+<h3>fail2ban</h3>
 <hr>
 
 ```
@@ -50,7 +50,7 @@ fail2ban log file
 /var/log/fail2ban.log
 ```
 
-###smarthome
+<h3>>smarthome</h3>
 <hr>
 
 ```
@@ -58,23 +58,23 @@ homebridge
 mosquitto
 ```
 
-### zshrc
+<h3>zshrc</h3>
 <hr>
 
 
 FIX perl: warning: Setting locale failed. <br>
 Create ~/.zshrc file with content 
 
-<h4>Setting for the new UTF-8 terminal support in Big Sur
+<h4>Setting for the new UTF-8 terminal support in Big Sur<h4>
 ```
 LC_CTYPE=en_US.UTF-8
 LC_ALL=en_US.UTF-8
 ```
 
-###python
+<h3>python</h3>
 <hr>
 
-###nodejs & npm
+<h3>nodejs & npm</h3>
 <hr>
 
 ```
@@ -87,7 +87,7 @@ sudo n stable
 sudo npm -v
 sudo npm install -g npm
 ```
-###PM2
+<h3>PM2</h3>
 <hr>
 
 ```
@@ -96,7 +96,7 @@ pm2 startup
 pm2 start app.js
 pm2 save
 ```
-####Commands
+<h4>Commands</h4>
 ```
 pm2 list
 pm2 stop
@@ -107,7 +107,7 @@ pm2 monit
 pm2 set pm2:sysmonit true
 pm2 update
 ```
-#### PM2 update
+<h4>PM2 update</h4>
 ```
 # Install latest PM2 version
 $ npm install pm2@latest -g
