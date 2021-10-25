@@ -50,7 +50,7 @@ fail2ban log file
 /var/log/fail2ban.log
 ```
 
-<h3>>smarthome</h3>
+<h3>smarthome</h3>
 <hr>
 
 ```
@@ -65,7 +65,7 @@ mosquitto
 FIX perl: warning: Setting locale failed. <br>
 Create ~/.zshrc file with content 
 
-<h4>Setting for the new UTF-8 terminal support in Big Sur<h4>
+<h4>Setting for the new UTF-8 terminal support in Big Sur</h4>
 ```
 LC_CTYPE=en_US.UTF-8
 LC_ALL=en_US.UTF-8
