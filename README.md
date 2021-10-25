@@ -61,10 +61,10 @@ mosquitto
 ### zshrc
 <hr>
 
-```
-FIX perl: warning: Setting locale failed. 
+
+FIX perl: warning: Setting locale failed. <br>
 Create ~/.zshrc file with content 
-```
+
 ####Setting for the new UTF-8 terminal support in Big Sur
 ```
 LC_CTYPE=en_US.UTF-8
@@ -78,12 +78,12 @@ LC_ALL=en_US.UTF-8
 <hr>
 
 ```
-//Node JS
+# Node JS
 sudo npm cache clean -f
 sudo npm install -g n
 sudo n stable
 
-//NPM
+# NPM
 sudo npm -v
 sudo npm install -g npm
 ```
@@ -92,6 +92,7 @@ sudo npm install -g npm
 
 ```
 npm install pm2 -g
+pm2 startup
 pm2 start app.js
 pm2 save
 ```
@@ -105,6 +106,13 @@ pm2 monit
 
 pm2 set pm2:sysmonit true
 pm2 update
+```
+#### PM2 update
+```
+# Install latest PM2 version
+$ npm install pm2@latest -g
+# Save process list, exit old PM2 & restore all processes
+$ pm2 update
 ```
 
 
