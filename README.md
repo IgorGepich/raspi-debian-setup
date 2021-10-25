@@ -16,6 +16,20 @@ PasswordAuthentication no
 PermitEmptyPasswords no
 ChallengeResponseAuthentication no
 ```
+###Generate SSH key OSX
+```
+ssh-keygen
+ssh-add ~/.ssh/key_name.private
+```
+add public key to /.ssh/authorized_keys file on the server
+restart shh
+```
+//Derbian
+$ sudo service ssh restart
+//OSX
+$ sudo launchctl stop com.openssh.sshd
+$ sudo launchctl start com.openssh.sshd
+```
 ###fail2ban
 ```
 sudo apt install -y fail2ban
