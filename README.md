@@ -127,6 +127,7 @@ $ pm2 update
 #Upgrading
 $ docker stop portainer
 $ docker rm portainer
+$ docker pull portainer/portainer-ce:latest
 ```
 
 Finally, deploy the updated version of Portainer:
