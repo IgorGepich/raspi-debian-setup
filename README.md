@@ -122,6 +122,7 @@ $ pm2 update
 ```
 
 <h3>Portainer</h3>
+
 ```
 #Upgrading
 $ docker stop portainer
