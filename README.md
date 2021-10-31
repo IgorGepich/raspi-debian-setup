@@ -24,8 +24,10 @@ ChallengeResponseAuthentication no
 <hr>
 
 ```
-ssh-keygen
-ssh-add ~/.ssh/key_name.private
+$ ssh-keygen
+# List of added ssh keys
+$ ssh-add -l
+$ ssh-add ~/.ssh/key_name.private
 ```
 Add public key to /.ssh/authorized_keys file on the server<br>
 Restart ssh
