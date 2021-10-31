@@ -141,5 +141,16 @@ docker run -d -p 8000:8000 -p 9000:9000 -p 9443:9443 \
 portainer/portainer-ce:latest
 ```
 
+<h3>Docker</h3>
 
+```
+$ docker system prune -a
+```
+
+>WARNING!<br> 
+* This will remove:<br>
+* all stopped containers<br>
+* all networks not used by at least one container<br>
+* all unused images<br>
+* all build cache<br>
 
