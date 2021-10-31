@@ -87,7 +87,7 @@ sudo n stable
 
 # NPM
 sudo npm -v
-sudo npm install -g npm
+sudo npm install -g npm@latest
 ```
 <h3>PM2</h3>
 <hr>
