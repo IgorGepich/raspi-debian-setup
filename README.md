@@ -141,7 +141,9 @@ docker run -d -p 8000:8000 -p 9000:9000 -p 9443:9443 \
 portainer/portainer-ce:latest
 ```
 
+---
 <h3>Docker</h3>
+[Cool Tutorial Docker + Node.js](https://nodejs.org/ru/docs/guides/nodejs-docker-webapp/)
 
 ```
 $ docker system prune -a
@@ -153,4 +155,18 @@ $ docker system prune -a
 * all networks not used by at least one container<br>
 * all unused images<br>
 * all build cache<br>
+
+```
+$ docker container ls -a
+$ docker image ls
+$ docker rmi ImageName
+# Delete container 
+$ docker rm ID_or_NAME 
+```
+
+Build and run:
+```
+$ docker build . -t igor/node-server-app
+$ docker run -p 3000:3000 -d igor/node-server-app
+```
 
