@@ -1,13 +1,15 @@
 <h2>Debian Server Set Up</h2>
 <h3>Global</h3>
-<hr>
+---
 
 ```
 sudo apt update && sudo apt uprgade -y
 sudo apt install -y mosh tmux htop git curl wget unzip zip gcc build-essential make
 ```
+
+---
 <h3>Configure SSH</h3>
-<hr>
+
 
 ```
 sudo nano /etc/ssh/sshd_config
@@ -20,8 +22,9 @@ PasswordAuthentication no
 PermitEmptyPasswords no
 ChallengeResponseAuthentication no
 ```
+
+---
 <h3>Generate SSH key OSX</h3>
-<hr>
 
 ```
 $ ssh-keygen
@@ -39,8 +42,9 @@ $ sudo service ssh restart
 $ sudo launchctl stop com.openssh.sshd
 $ sudo launchctl start com.openssh.sshd
 ```
+
+---
 <h3>fail2ban</h3>
-<hr>
 
 ```
 sudo apt install -y fail2ban
@@ -75,11 +79,11 @@ LC_CTYPE=en_US.UTF-8
 LC_ALL=en_US.UTF-8
 ```
 
+---
 <h3>python</h3>
-<hr>
 
+---
 <h3>nodejs & npm</h3>
-<hr>
 
 ```
 # Node JS Update
@@ -91,6 +95,8 @@ sudo n stable
 sudo npm -v
 sudo npm install -g npm@latest
 ```
+
+---
 <h3>PM2</h3>
 <hr>
 
@@ -123,6 +129,7 @@ $ npm install pm2@latest -g
 $ pm2 update
 ```
 
+---
 <h3>Portainer</h3>
 
 ```
@@ -173,5 +180,10 @@ $ docker run -p 3005:3005 -d igor/node-server
 Enter in container:
 ```
 $ docker exec -it <container id> /bin/bash
+```
+
+Container logs:
+```
+$ docker logs ID_or_NAME
 ```
 
