@@ -82,7 +82,7 @@ LC_ALL=en_US.UTF-8
 <hr>
 
 ```
-# Node JS
+# Node JS Update
 sudo npm cache clean -f
 sudo npm install -g n
 sudo n stable
@@ -159,14 +159,19 @@ $ docker system prune -a
 ```
 $ docker container ls -a
 $ docker image ls
-$ docker rmi ImageName
+$ docker rmi ID_or_NAME
 # Delete container 
 $ docker rm ID_or_NAME 
 ```
 
 Build and run:
 ```
-$ docker build . -t igor/node-server-app
-$ docker run -p 3000:3000 -d igor/node-server-app
+$ docker build . -t igor/node-server
+$ docker run -p 3005:3005 -d igor/node-server
+```
+
+Enter in container:
+```
+$ docker exec -it <container id> /bin/bash
 ```
 
