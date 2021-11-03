@@ -1,6 +1,5 @@
 <h2>Debian Server Set Up</h2>
 <h3>Global</h3>
----
 
 ```
 sudo apt update && sudo apt uprgade -y
