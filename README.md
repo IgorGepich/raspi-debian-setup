@@ -98,7 +98,6 @@ sudo npm install -g npm@latest
 
 ---
 <h3>PM2</h3>
-<hr>
 
 ```
 npm install pm2 -g
@@ -127,6 +126,16 @@ pm2 update
 $ npm install pm2@latest -g
 # Save process list, exit old PM2 & restore all processes
 $ pm2 update
+```
+
+<h4>Set environment</h4>
+
+```
+pm2 restart app --update-env
+```
+```
+ENV_VAR=value pm2 start app.js
+ENV_VAR=somethingnew pm2 restart app --update-env
 ```
 
 ---
