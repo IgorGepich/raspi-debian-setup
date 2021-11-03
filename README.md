@@ -195,3 +195,20 @@ Container logs:
 $ docker logs ID_or_NAME
 ```
 
+Delete container<br>
+- show only container IDs
+```
+docker ps -a -q
+docker rm $(docker ps -qa)
+```
+
+Docker compose
+```
+sudo pip3 install docker-compose
+```
+
+Enable the Docker system service to start your containers on boot
+```
+sudo systemctl enable docker
+```
+
