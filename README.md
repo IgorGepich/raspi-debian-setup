@@ -163,6 +163,8 @@ portainer/portainer-ce:latest
 ---
 <h3>Docker</h3>
 [Cool Tutorial Docker + Node.js](https://nodejs.org/ru/docs/guides/nodejs-docker-webapp/)
+<br>
+[Install Docker tutorial](https://blog-anoff-io.translate.goog/2020-12-install-docker-raspi/?_x_tr_sl=en&_x_tr_tl=ru&_x_tr_hl=ru&_x_tr_pto=sc)
 
 ```
 $ docker system prune -a
@@ -216,22 +218,11 @@ Enable the Docker system service to start your containers on boot
 sudo systemctl enable docker
 ```
 
-<h3>Work with disk Linux</h3>
-Mount the disk:
 ```
-sudo mount /from /to
+docker swarm init
 ```
 
-Unmount the disk:
-```
-sudo umount /NAME_OF_THE_DISK
-```
 
-List of all disks:
-```
-lsblk
-sudo fdisk -l
-```
 
 
 
