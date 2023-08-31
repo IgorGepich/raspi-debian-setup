@@ -218,6 +218,13 @@ sudo systemctl enable docker
 docker swarm init
 ```
 
+Anydesk FIX
+```
+sudo apt install libgles-dev libegl-dev
+sudo ln -s /usr/lib/arm-linux-gnueabihf/libGLESv2.so /usr/lib/libbrcmGLESv2.so
+sudo ln -s /usr/lib/arm-linux-gnueabihf/libEGL.so /usr/lib/libbrcmEGL.so
+```
+
 
 
 
