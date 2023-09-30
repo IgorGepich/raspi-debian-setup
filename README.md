@@ -35,6 +35,7 @@ Add public key to /.ssh/authorized_keys file on the server<br>
 
 ```
 $ scp KEY.pub USERNAME@IP_ADDRESS:/DEST
+$ cat KEY.pub > authorized_keys
 ```
 
 Restart ssh
