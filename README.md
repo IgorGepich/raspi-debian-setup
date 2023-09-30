@@ -32,6 +32,11 @@ $ ssh-add -l
 $ ssh-add ~/.ssh/key_name.private
 ```
 Add public key to /.ssh/authorized_keys file on the server<br>
+
+```
+$ scp KEY.pub USERNAME@IP_ADDRESS:/DEST
+```
+
 Restart ssh
 ```
 #Debian

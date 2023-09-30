@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="72410a7b-ca36-4b57-b5ad-7f9fe596b4a8" name="Changes" comment="add Grafana, Prometheus snd Node Exporter .yml files&#10;add READE.md file" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1yuqDS1ZkjFxFj2FMEoWyBRKdDW" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="72410a7b-ca36-4b57-b5ad-7f9fe596b4a8" name="Changes" comment="" />
+      <created>1633111701000</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1633111701000</updated>
+      <workItem from="1633111703535" duration="2617000" />
+      <workItem from="1634030841931" duration="280000" />
+      <workItem from="1634035964635" duration="176000" />
+      <workItem from="1634544762256" duration="599000" />
+      <workItem from="1634550791973" duration="65000" />
+      <workItem from="1634550876391" duration="598000" />
+      <workItem from="1634557853695" duration="598000" />
+      <workItem from="1634672857110" duration="502000" />
+      <workItem from="1635088002584" duration="480000" />
+      <workItem from="1635178451001" duration="635000" />
+      <workItem from="1635179291170" duration="2750000" />
+      <workItem from="1635420336039" duration="1078000" />
+      <workItem from="1635677947225" duration="9140000" />
+      <workItem from="1636098672210" duration="247000" />
+      <workItem from="1636098952659" duration="333000" />
+      <workItem from="1637845312170" duration="501000" />
+      <workItem from="1659154933504" duration="5928000" />
+      <workItem from="1659765982289" duration="3882000" />
+      <workItem from="1659967115517" duration="314000" />
+      <workItem from="1660014002613" duration="1124000" />
+      <workItem from="1660032434486" duration="739000" />
+      <workItem from="1660195474399" duration="1908000" />
+      <workItem from="1660465287436" duration="25000" />
+      <workItem from="1660465325687" duration="332000" />
+      <workItem from="1661184342643" duration="1056000" />
+      <workItem from="1661185580756" duration="1075000" />
+      <workItem from="1661244146276" duration="3066000" />
+      <workItem from="1664048613857" duration="1922000" />
+      <workItem from="1667868594822" duration="1018000" />
+      <workItem from="1668198773506" duration="553000" />
+      <workItem from="1674745695052" duration="186000" />
+      <workItem from="1690124111907" duration="112000" />
+      <workItem from="1696092679261" duration="110000" />
+      <workItem from="1696092802933" duration="93000" />
+      <workItem from="1696092909632" duration="974000" />
+    </task>
+    <task id="LOCAL-00001" summary="add markdown">
+      <created>1633112360757</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1633112360757</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add markdown">
+      <created>1633112446331</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1633112446331</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add markdown">
+      <created>1633112528228</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1633112528228</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add markdown">
+      <created>1634673079284</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1634673079284</updated>
+    </task>
+    <task id="LOCAL-00005" summary="add markdown">
+      <created>1634673211230</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1634673211230</updated>
+    </task>
+    <task id="LOCAL-00006" summary="add markdown">
+      <created>1634673306964</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1634673306964</updated>
+    </task>
+    <task id="LOCAL-00007" summary="fix perl locale settings failed">
+      <created>1635088300149</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1635088300149</updated>
+    </task>
+    <task id="LOCAL-00008" summary="add node js &amp; npm install">
+      <created>1635178715608</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1635178715608</updated>
+    </task>
+    <task id="LOCAL-00009" summary="add generating SSH keys">
+      <created>1635180036988</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1635180036988</updated>
+    </task>
+    <task id="LOCAL-00010" summary="add generating SSH keys">
+      <created>1635180107329</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1635180107329</updated>
+    </task>
+    <task id="LOCAL-00011" summary="add PM2 npm installation">
+      <created>1635180323157</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1635180323157</updated>
+    </task>
+    <task id="LOCAL-00012" summary="add markdown elements">
+      <created>1635183584481</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1635183584481</updated>
+    </task>
+    <task id="LOCAL-00013" summary="add markdown elements">
+      <created>1635183803800</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1635183803800</updated>
+    </task>
+    <task id="LOCAL-00014" summary="add markdown elements">
+      <created>1635184066576</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1635184066576</updated>
+    </task>
+    <task id="LOCAL-00015" summary="add markdown elements">
+      <created>1635184192380</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1635184192380</updated>
+    </task>
+    <task id="LOCAL-00016" summary="add markdown elements">
+      <created>1635184273250</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1635184273250</updated>
+    </task>
+    <task id="LOCAL-00017" summary="add markdown elements">
+      <created>1635184325047</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1635184325047</updated>
+    </task>
+    <task id="LOCAL-00018" summary="add markdown elements">
+      <created>1635184415819</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1635184415819</updated>
+    </task>
+    <task id="LOCAL-00019" summary="add markdown elements">
+      <created>1635184478244</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1635184478244</updated>
+    </task>
+    <task id="LOCAL-00020" summary="add markdown elements">
+      <created>1635184503907</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1635184503907</updated>
+    </task>
+    <task id="LOCAL-00021" summary="add markdown elements">
+      <created>1635184570438</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1635184570438</updated>
+    </task>
+    <task id="LOCAL-00022" summary="add portainer upgrading">
+      <created>1635420697707</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1635420697707</updated>
+    </task>
+    <task id="LOCAL-00023" summary="add portainer upgrading">
+      <created>1635420903895</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1635420903895</updated>
+    </task>
+    <task id="LOCAL-00024" summary="add portainer upgrading">
+      <created>1635420982695</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1635420982695</updated>
+    </task>
+    <task id="LOCAL-00025" summary="add npm upgrading">
+      <created>1635678004133</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1635678004134</updated>
+    </task>
+    <task id="LOCAL-00026" summary="add ssh list of added keys">
+      <created>1635678757938</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1635678757938</updated>
+    </task>
+    <task id="LOCAL-00027" summary="add docker system prune">
+      <created>1635716485330</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1635716485330</updated>
+    </task>
+    <task id="LOCAL-00028" summary="add docker">
+      <created>1635790191916</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1635790191916</updated>
+    </task>
+    <task id="LOCAL-00029" summary="add docker">
+      <created>1635834439203</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1635834439203</updated>
+    </task>
+    <task id="LOCAL-00030" summary="add docker">
+      <created>1635834780189</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1635834780189</updated>
+    </task>
+    <task id="LOCAL-00031" summary="add pm2 environment">
+      <created>1635920670606</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1635920670606</updated>
+    </task>
+    <task id="LOCAL-00032" summary="add pm2 environment">
+      <created>1635920801395</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1635920801395</updated>
+    </task>
+    <task id="LOCAL-00033" summary="add docker-compose">
+      <created>1635931433429</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1635931433429</updated>
+    </task>
+    <task id="LOCAL-00034" summary="add transmission daemon">
+      <created>1637845552566</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1637845552566</updated>
+    </task>
+    <task id="LOCAL-00035" summary="add working with disk">
+      <created>1659155532045</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1659155532045</updated>
+    </task>
+    <task id="LOCAL-00036" summary="add linux tutorial">
+      <created>1659469743871</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1659469743871</updated>
+    </task>
+    <task id="LOCAL-00037" summary="add linux tutorial">
+      <created>1659469893129</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1659469893129</updated>
+    </task>
+    <task id="LOCAL-00038" summary="add Grafana, Prometheus snd Node Exporter .yml files&#10;add READE.md file">
+      <created>1659790151498</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1659790151498</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add markdown" />
+    <MESSAGE value="fix perl locale settings failed" />
+    <MESSAGE value="add node js &amp; npm install" />
+    <MESSAGE value="add generating SSH keys" />
+    <MESSAGE value="add PM2 npm installation" />
+    <MESSAGE value="add markdown elements" />
+    <MESSAGE value="add portainer upgrading" />
+    <MESSAGE value="add npm upgrading" />
+    <MESSAGE value="add ssh list of added keys" />
+    <MESSAGE value="add docker system prune" />
+    <MESSAGE value="add docker" />
+    <MESSAGE value="add pm2 environment" />
+    <MESSAGE value="add docker-compose" />
+    <MESSAGE value="add transmission daemon" />
+    <MESSAGE value="add working with disk" />
+    <MESSAGE value="add linux tutorial" />
+    <MESSAGE value="add Grafana, Prometheus snd Node Exporter .yml files&#10;add READE.md file" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Grafana, Prometheus snd Node Exporter .yml files&#10;add READE.md file" />
+  </component>
+</project>
